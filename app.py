@@ -97,7 +97,7 @@ country_input = st.selectbox(" Country", sorted(df['country'].unique()))
 
 budget = st.slider(" Budget (Million USD)", 1, 300, 50)
 
-screen_count = st.number_input(" Number of Screens", min_value=50, max_value=20000, value=800)
+screen_count = st.number_input(" Number of Screens", min_value=50, max_value=11000, value=800)
 run_weeks = st.slider(" Weeks in Theater", 1, 20, 4)
 screen_stability = st.selectbox(" Screen Stability", ["Drop Fast","Stable","Growing"])
 
